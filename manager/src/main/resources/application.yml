@@ -1,0 +1,16 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  application:
+    name: manager
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://47.112.193.26:3306/manager?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+  jpa:
+    show-sql: true  #打印控制台语句
+server:
+  port: 8082
+  servlet:
+    context-path: /manager
